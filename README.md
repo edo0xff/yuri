@@ -4,6 +4,8 @@
 
 A task automation tool written in python. Yuri it's an API that lets you automate those boring and repetitive commands.
 
+![Yuri Atomation tool](https://i.imgur.com/VzyxhkK.png)
+
 ## Installation
 
 Install yuri with pip:
@@ -122,6 +124,12 @@ When you runs bar_task put your arguments before task id:
 ![Task arguments](https://i.imgur.com/05gFSCJ.png)
 
 ![Task arguments](https://i.imgur.com/drYIu3l.png)
+
+### Extra
+
+You can make a shortcut to quick run your tasks automations:
+
+![Windows shorcut](https://i.imgur.com/fOPW6PA.png)
 
 ## API Reference
 
