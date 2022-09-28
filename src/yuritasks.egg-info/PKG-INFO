@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: yuri
+Name: yuritasks
 Version: 0.0.1
 Summary: Task automation tool, automate those boring and repetitive tasks.
 Home-page: https://github.com/edo0xff/yuri
@@ -22,6 +22,8 @@ License-File: LICENSE
 
 A task automation tool written in python. Yuri it's an API that lets you automate those boring and repetitive commands.
 
+![Yuri Atomation tool](https://i.imgur.com/VzyxhkK.png)
+
 ## Installation
 
 Install yuri with pip:
@@ -43,7 +45,7 @@ pip install .
 
 ```python
 # task_automation.py
-import yuri
+import yuritasks as yuri
 
 yuri.do.var('source_dir', 'C:\\foo\bar\baz')
 
@@ -94,7 +96,7 @@ Now just enter the task id of the task you want to run!
 You should name yours tasks as follows:
 
 ```python
-import yuri
+import yuritasks as yuri
 
 @yuri.task
 def YOURNAMESPACE_task_name(_args):
@@ -125,7 +127,7 @@ As you may noticed, tasks' functions must be named with `namespace` then `_` und
 You can pass arguments to your tasks via cli, just as follows:
 
 ```python
-import yuri
+import yuritasks as yuri
 
 @yuri.task
 def foo_bar_task(args):
@@ -140,6 +142,12 @@ When you runs bar_task put your arguments before task id:
 ![Task arguments](https://i.imgur.com/05gFSCJ.png)
 
 ![Task arguments](https://i.imgur.com/drYIu3l.png)
+
+### Extra configs
+
+You can make a shortcut to quick run your tasks automations:
+
+![Windows shorcut](https://i.imgur.com/fOPW6PA.png)
 
 ## API Reference
 

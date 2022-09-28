@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name = 'yuri', 
+    name = 'yuritasks', 
     version = '0.0.1',
     description = 'Task automation tool, automate those boring and repetitive tasks.',
     package_dir = {'':'src'},
-    packages = ["yuri"],
+    packages = ["yuritasks"],
     author = 'edo0xff',
     author_email = 'edo0xff@pronton.me',
     long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),

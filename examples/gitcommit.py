@@ -1,4 +1,4 @@
-import yuri
+import yuritasks as yuri
 
 yuri.do.var("source_path", "PUT_HERE_SOME_GIT_PATH")
 

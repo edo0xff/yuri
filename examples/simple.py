@@ -1,4 +1,4 @@
-import yuri
+import yuritasks as yuri
 
 @yuri.task
 def foo_bar_task(_args):

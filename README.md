@@ -27,7 +27,7 @@ pip install .
 
 ```python
 # task_automation.py
-import yuri
+import yuritasks as yuri
 
 yuri.do.var('source_dir', 'C:\\foo\bar\baz')
 
@@ -78,7 +78,7 @@ Now just enter the task id of the task you want to run!
 You should name yours tasks as follows:
 
 ```python
-import yuri
+import yuritasks as yuri
 
 @yuri.task
 def YOURNAMESPACE_task_name(_args):
@@ -109,7 +109,7 @@ As you may noticed, tasks' functions must be named with `namespace` then `_` und
 You can pass arguments to your tasks via cli, just as follows:
 
 ```python
-import yuri
+import yuritasks as yuri
 
 @yuri.task
 def foo_bar_task(args):
