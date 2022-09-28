@@ -125,7 +125,7 @@ When you runs bar_task put your arguments before task id:
 
 ![Task arguments](https://i.imgur.com/drYIu3l.png)
 
-### Extra
+### Extra configs
 
 You can make a shortcut to quick run your tasks automations:
 
