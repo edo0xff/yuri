@@ -11,13 +11,13 @@ A task automation tool written in python. Yuri it's an API that lets you automat
 Install yuri with pip:
 
 ```bash
-pip install yuri
+pip install yuritasks
 ```
 
 Installing from source:
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/edo0xff/yuri.git
 cd yuri
 pip install setuptools
 pip install .
